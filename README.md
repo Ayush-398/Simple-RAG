@@ -22,7 +22,7 @@ pip install ollama pypdf python-pptx python-docx langchain-text-splitters tiktok
 
 
 
-## Limitations
+## Rooms for improvement
 
 - If the question covers multiple topics at the same time, the system may not be able to provide a good answer. This is because the system only retrieves chunks based on the similarity of the query to the chunks, without considering the context of the query.
 The solution could be to have the chatbot to write its own query based on the user's input, then retrieve the knowledge based on the generated query.
