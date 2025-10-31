@@ -8,15 +8,7 @@ The current script Uses local models form huggingface for both embeddings and la
 
 - Python 3.8+
 - [ollama](https://ollama.com/) installed and running locally
-- The following Python packages:
-  - `tkinter`
-  - `os`, `re`
-  - `ollama` (Python package)
-  - `pypdf`
-  - `python-pptx`
-  - `python-docx`
-  - `langchain-text-splitters`
-  - `tiktoken`
+
  
   Install dependencies with:
 ```bash
